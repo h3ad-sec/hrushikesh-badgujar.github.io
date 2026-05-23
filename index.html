@@ -7,7 +7,7 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
-  <meta name="version" content="20260517b">
+  <meta name="version" content="20260523a">
   <title>Hrushikesh Badgujar — Cybersecurity Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link
@@ -1151,15 +1151,16 @@
         <div class="project-card project-card-platform">
           <div class="project-num">// PLATFORM · OPEN-SOURCE</div>
           <div class="project-name">H3AD-SEC — Open-Source SOC Analyst Platform</div>
-          <p class="project-desc">Multi-module security platform built and deployed on GitHub Pages — threat intelligence enrichment (X-VERDIKT, PARSE-X, DNSCOPE), investigation pivoting (PIVEX), and hypothesis management (HYPOS). Each module is a standalone tool targeting a distinct analyst workflow.</p>
+          <p class="project-desc">Multi-module security platform built on GitHub Pages across 6 hubs: threat intel enrichment (H3AD-X), AI-assisted analysis (H3AD-AI), detection engineering (H3AD-DETECT), hypothesis-driven hunting (H3AD-HUNT), operational tooling (H3AD-OPS), and digital forensics (H3AD-DF). 18+ standalone tools, each targeting a distinct analyst workflow.</p>
           <div class="project-tags" style="margin-bottom:1.25rem;">
             <span class="tag accent">Threat Intel</span>
             <span class="tag accent">SOC Tools</span>
             <span class="tag accent">Detection Engineering</span>
+            <span class="tag accent">AI-Assisted</span>
             <span class="tag">IOC Enrichment</span>
             <span class="tag">Pivot Mapping</span>
             <span class="tag">Threat Hunting</span>
-            <span class="tag">Recon</span>
+            <span class="tag">DFIR</span>
           </div>
           <div class="project-links">
             <a href="https://h3ad-sec.github.io" target="_blank" class="btn btn-primary btn-sm">Live Platform ↗</a>
@@ -1224,7 +1225,7 @@
             <span class="subsection-label">// H3AD-HUNT · Threat Hunting</span>
             <a href="https://h3ad-sec.github.io/H3AD-HUNT/" target="_blank" class="subsection-link">H3AD-HUNT ↗</a>
           </div>
-          <div class="projects-grid" style="grid-template-columns: repeat(2, 1fr);">
+          <div class="projects-grid grid-3col">
             <div class="project-card">
               <div class="project-num">// HYPOS · LIVE</div>
               <div class="project-name">HYPOS — Hypothesis Platform</div>
@@ -1255,6 +1256,216 @@
               </div>
             </div>
 
+            <div class="project-card">
+              <div class="project-num">// TRACEPULSE · LIVE</div>
+              <div class="project-name">TRACEPULSE — Threat Query Packs</div>
+              <p class="project-desc">CVE and campaign-tied threat query packs for proactive hunting. Each pack bundles detection queries, IOCs, and context around active threats and campaigns.</p>
+              <div class="project-tags" style="margin-bottom:1.25rem;">
+                <span class="tag accent">Threat Hunting</span>
+                <span class="tag accent">CVE-Tied</span>
+                <span class="tag">Query Packs</span>
+                <span class="tag">Campaigns</span>
+              </div>
+              <div class="project-links">
+                <a href="https://h3ad-sec.github.io/TRACEPULSE/" target="_blank" class="btn btn-primary btn-sm">Launch Tool ↗</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div style="margin-top:2.5rem;">
+          <div class="subsection-header">
+            <span class="subsection-label">// H3AD-AI · AI-Assisted Security</span>
+            <a href="https://h3ad-sec.github.io/H3AD-AI/" target="_blank" class="subsection-link">H3AD-AI ↗</a>
+          </div>
+          <div class="projects-grid grid-3col">
+            <div class="project-card">
+              <div class="project-num">// INSIGHT-AI · LIVE</div>
+              <div class="project-name">INSIGHT-AI — Runbook Generator</div>
+              <p class="project-desc">AI runbook generator with L3/SME persona. Produces 10-section analyst playbooks covering L1/L2/L3/IR workflows, with severity badges and sub-technique MITRE mapping.</p>
+              <div class="project-tags" style="margin-bottom:1.25rem;">
+                <span class="tag accent">Runbooks</span>
+                <span class="tag accent">L3 Persona</span>
+                <span class="tag">MITRE ATT&amp;CK</span>
+                <span class="tag">IR Playbooks</span>
+              </div>
+              <div class="project-links">
+                <a href="https://h3ad-sec.github.io/INSIGHT-AI/" target="_blank" class="btn btn-primary btn-sm">Launch Tool ↗</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-num">// QUERYCRAFT-AI · LIVE</div>
+              <div class="project-name">QUERYCRAFT-AI — Detection Query Builder</div>
+              <p class="project-desc">AI detection query builder across KQL, Sigma, and XQL. Generates platform-specific detection logic from natural language threat descriptions.</p>
+              <div class="project-tags" style="margin-bottom:1.25rem;">
+                <span class="tag accent">KQL</span>
+                <span class="tag accent">Sigma</span>
+                <span class="tag">XQL</span>
+                <span class="tag">Detection Engineering</span>
+              </div>
+              <div class="project-links">
+                <a href="https://h3ad-sec.github.io/QUERYCRAFT-AI/" target="_blank" class="btn btn-primary btn-sm">Launch Tool ↗</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-num">// FPLENS-AI · LIVE</div>
+              <div class="project-name">FPLENS-AI — False Positive Analyzer</div>
+              <p class="project-desc">AI false positive analyzer that reviews alert context and detection logic to distinguish genuine threats from noise, with tuning recommendations.</p>
+              <div class="project-tags" style="margin-bottom:1.25rem;">
+                <span class="tag accent">FP Reduction</span>
+                <span class="tag">Alert Tuning</span>
+                <span class="tag">SOC Ops</span>
+              </div>
+              <div class="project-links">
+                <a href="https://h3ad-sec.github.io/FPLENS-AI/" target="_blank" class="btn btn-primary btn-sm">Launch Tool ↗</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-num">// ATTMAP-AI · LIVE</div>
+              <div class="project-name">ATTMAP-AI — ATT&amp;CK Mapper</div>
+              <p class="project-desc">Maps threat descriptions, IOCs, and incident details to MITRE ATT&amp;CK techniques and sub-techniques. Outputs structured coverage layers for ATT&amp;CK Navigator.</p>
+              <div class="project-tags" style="margin-bottom:1.25rem;">
+                <span class="tag accent">MITRE ATT&amp;CK</span>
+                <span class="tag">TTP Mapping</span>
+                <span class="tag">CTI</span>
+              </div>
+              <div class="project-links">
+                <a href="https://h3ad-sec.github.io/ATTMAP-AI/" target="_blank" class="btn btn-primary btn-sm">Launch Tool ↗</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-num">// CHRONO-AI · LIVE</div>
+              <div class="project-name">CHRONO-AI — Timeline Builder</div>
+              <p class="project-desc">AI incident timeline builder. Structures raw event sequences into a chronological attack narrative for IR reports and post-incident review.</p>
+              <div class="project-tags" style="margin-bottom:1.25rem;">
+                <span class="tag accent">Timeline</span>
+                <span class="tag">Incident Response</span>
+                <span class="tag">IR Reports</span>
+              </div>
+              <div class="project-links">
+                <a href="https://h3ad-sec.github.io/CHRONO-AI/" target="_blank" class="btn btn-primary btn-sm">Launch Tool ↗</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-num">// MALBRIEF-AI · LIVE</div>
+              <div class="project-name">MALBRIEF-AI — Malware Behavior Analyzer</div>
+              <p class="project-desc">AI malware behavior briefer. Takes sandbox reports or analyst notes and produces structured behavioral analysis with IOCs, evasion techniques, and MITRE mapping.</p>
+              <div class="project-tags" style="margin-bottom:1.25rem;">
+                <span class="tag accent">Malware Analysis</span>
+                <span class="tag">Behavioral</span>
+                <span class="tag">MITRE ATT&amp;CK</span>
+              </div>
+              <div class="project-links">
+                <a href="https://h3ad-sec.github.io/MALBRIEF-AI/" target="_blank" class="btn btn-primary btn-sm">Launch Tool ↗</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top:2.5rem;">
+          <div class="subsection-header">
+            <span class="subsection-label">// H3AD-DETECT · Detection Engineering</span>
+            <a href="https://h3ad-sec.github.io/H3AD-DETECT/" target="_blank" class="subsection-link">H3AD-DETECT ↗</a>
+          </div>
+          <div class="projects-grid" style="grid-template-columns: repeat(2, 1fr);">
+            <div class="project-card">
+              <div class="project-num">// TRACERULES · LIVE</div>
+              <div class="project-name">TRACERULES — Detection Query Arsenal</div>
+              <p class="project-desc">Curated library of production-ready detection queries across KQL, Sigma, and XQL. Organized by MITRE ATT&amp;CK tactic and searchable by technique and platform.</p>
+              <div class="project-tags" style="margin-bottom:1.25rem;">
+                <span class="tag accent">KQL</span>
+                <span class="tag accent">Sigma</span>
+                <span class="tag">XQL</span>
+                <span class="tag">MITRE ATT&amp;CK</span>
+              </div>
+              <div class="project-links">
+                <a href="https://h3ad-sec.github.io/TRACERULES/" target="_blank" class="btn btn-primary btn-sm">Launch Tool ↗</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top:2.5rem;">
+          <div class="subsection-header">
+            <span class="subsection-label">// H3AD-OPS · Security Operations</span>
+            <a href="https://h3ad-sec.github.io/H3AD-OPS/" target="_blank" class="subsection-link">H3AD-OPS ↗</a>
+          </div>
+          <div class="projects-grid grid-3col">
+            <div class="project-card">
+              <div class="project-num">// QUICKTRACE · LIVE</div>
+              <div class="project-name">QUICKTRACE — Daily Workflow Queries</div>
+              <p class="project-desc">Ready-to-run SOC queries for daily auth, network, endpoint, and cloud monitoring. Organized by domain and backed by QUERYVAULT.</p>
+              <div class="project-tags" style="margin-bottom:1.25rem;">
+                <span class="tag accent">SOC Ops</span>
+                <span class="tag">Daily Queries</span>
+                <span class="tag">KQL</span>
+              </div>
+              <div class="project-links">
+                <a href="https://h3ad-sec.github.io/QUICKTRACE/" target="_blank" class="btn btn-primary btn-sm">Launch Tool ↗</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-num">// SHIFTLOG · LIVE</div>
+              <div class="project-name">SHIFTLOG — Shift Handover Generator</div>
+              <p class="project-desc">Structured shift handover report builder for SOC teams. Captures incidents, escalations, and open items into a formatted handover document, reducing transition gaps.</p>
+              <div class="project-tags" style="margin-bottom:1.25rem;">
+                <span class="tag accent">Shift Handover</span>
+                <span class="tag">SOC Ops</span>
+                <span class="tag">Reports</span>
+              </div>
+              <div class="project-links">
+                <a href="https://h3ad-sec.github.io/SHIFTLOG/" target="_blank" class="btn btn-primary btn-sm">Launch Tool ↗</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-num">// PHISHOPS · LIVE</div>
+              <div class="project-name">PHISHOPS — Phishing Investigation Tracker</div>
+              <p class="project-desc">7-step phishing investigation tracker with live IOC aggregation. Client-side, localStorage-backed workflow covering header analysis through verdict and containment.</p>
+              <div class="project-tags" style="margin-bottom:1.25rem;">
+                <span class="tag accent">Phishing</span>
+                <span class="tag">IOC Analysis</span>
+                <span class="tag">Client-Side</span>
+              </div>
+              <div class="project-links">
+                <a href="https://h3ad-sec.github.io/PHISHOPS/" target="_blank" class="btn btn-primary btn-sm">Launch Tool ↗</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top:2.5rem;">
+          <div class="subsection-header">
+            <span class="subsection-label">// H3AD-DF · Digital Forensics</span>
+            <a href="https://h3ad-sec.github.io/H3AD-DF/" target="_blank" class="subsection-link">H3AD-DF ↗</a>
+          </div>
+          <div class="projects-grid" style="grid-template-columns: repeat(2, 1fr);">
+            <div class="project-card">
+              <div class="project-num">// REGSCOPE · LIVE</div>
+              <div class="project-name">REGSCOPE — Registry Artifact Analyzer</div>
+              <p class="project-desc">Windows registry artifact analysis tool for DFIR investigations. Identifies suspicious keys, persistence mechanisms, and attacker footprints across common registry hives.</p>
+              <div class="project-tags" style="margin-bottom:1.25rem;">
+                <span class="tag accent">Registry Analysis</span>
+                <span class="tag">Windows DFIR</span>
+                <span class="tag">Persistence</span>
+              </div>
+              <div class="project-links">
+                <a href="https://h3ad-sec.github.io/REGSCOPE/" target="_blank" class="btn btn-primary btn-sm">Launch Tool ↗</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-num">// MALBRIEF-AI · LIVE</div>
+              <div class="project-name">MALBRIEF-AI — Malware Behavior Analyzer</div>
+              <p class="project-desc">AI malware behavior briefer. Takes sandbox reports or analyst notes and produces structured behavioral analysis with IOCs, evasion techniques, and MITRE mapping.</p>
+              <div class="project-tags" style="margin-bottom:1.25rem;">
+                <span class="tag accent">Malware Analysis</span>
+                <span class="tag">Behavioral</span>
+                <span class="tag">MITRE ATT&amp;CK</span>
+              </div>
+              <div class="project-links">
+                <a href="https://h3ad-sec.github.io/MALBRIEF-AI/" target="_blank" class="btn btn-primary btn-sm">Launch Tool ↗</a>
+              </div>
+            </div>
           </div>
         </div>
 
